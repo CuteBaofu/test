@@ -90,4 +90,5 @@ public class BrandServiceImpl implements BrandService {
 	public String toString() {
 		return super.toString();
 	}
+
 }
