@@ -86,5 +86,8 @@ public class BrandServiceImpl implements BrandService {
 		return new PageResult(tbBrands.getTotal(),tbBrands.getResult());
 	}
 
-
+	@Override
+	public String toString() {
+		return super.toString();
+	}
 }
